@@ -1,8 +1,12 @@
 # GraphQL todolist server
 
+## prerequisites: 
+* [Node.js](https://nodejs.org/en/) installed on your machine
+* [PostgreSQL](https://www.postgresql.org/) database server running
+
 ## project setup
 ```
-git clone
+git clone https://github.com/pcreem/graphqlTodoServer.git
 npm init -y
 npm i 
 npx prisma init
@@ -10,9 +14,8 @@ npx prisma migrate save --name init --experimental
 npx prisma migrate up --experimental
 npx prisma generate
 node index.js
-
 ```
-modefy .env and prisma/.env file 
+modify .env and prisma/.env code 
 run localhost:4000 on your browser
 
 ## GraphQL interface command
