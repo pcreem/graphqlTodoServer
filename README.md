@@ -1,7 +1,7 @@
 # GraphQL todolist server
 
 ## project setup
-`
+```
 git clone
 npm init -y
 npm i 
@@ -11,7 +11,7 @@ npx prisma migrate up --experimental
 npx prisma generate
 node index.js
 
-`
+```
 modefy .env and prisma/.env file 
 run localhost:4000 on your browser
 
